@@ -1,0 +1,49 @@
+
+@keyframes Logo {
+    0%  { -webkit-transform: rotate(0deg) rotate(0deg) scale(1); display: block; }
+    100%  { -webkit-transform: rotate(360deg)  translateX(calc(-50vw + 50%)) translateY(calc(-50vh + 50%)) rotate(-360deg) scale(1); display: none; }
+}
+
+/*
+@keyframes Logo {
+    0%  { -webkit-transform: rotate(0deg)  translateX(calc(-50vw + 50%)) translateY(calc(-50vh + 50%)) rotate(0deg) scale(1); }
+    25%  { -webkit-transform: rotate(90deg)  translateX(calc(-50vw + 50%)) translateY(calc(-50vh + 50%)) rotate(-90deg) scale(.75); }
+    50%  { -webkit-transform: rotate(180deg)  translateX(calc(-50vw + 50%)) translateY(calc(-50vh + 50%)) rotate(-180deg) scale(.60); }
+    75%  { -webkit-transform: rotate(270deg)  translateX(calc(-50vw + 50%)) translateY(calc(-50vh + 50%)) rotate(-270deg) scale(.75); }
+    100%  { -webkit-transform: rotate(360deg)  translateX(calc(-50vw + 50%)) translateY(calc(-50vh + 50%)) rotate(-360deg) scale(1); }
+}
+*/
+
+@keyframes BackAnim {
+    from {
+        background-color: var(--color-green-4);
+        z-index: 15;
+    }
+
+    100% {
+        background-color: none;
+        z-index: -1;
+    }
+}
+
+.cover {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s;
+    animation: BackAnim 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 5px black solid;
+    animation: Logo 2s ease-in-out;
+    animation-fill-mode: forwards;
+    margin: 3px 0 0 3px;
+}

@@ -1,0 +1,44 @@
+:root {
+    --color-green-1: #ceffbd;
+    --color-green-2: #4a7f37;
+    --color-green-3: #94ff6f;
+    --color-green-4: #677f5f;
+    --color-green-5: #78cc5a;
+    --color-day: #87CEEB;
+    --color-night: #212131;
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: none;
+    outline: none;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    user-select: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+body {
+    transition: 0.25s;
+}
+
+.markdown-orange {
+    color: var(--color-green-1);
+    font-size: 1.2em;
+    font-weight: 700;
+}

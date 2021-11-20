@@ -1,0 +1,26 @@
+.Page-About {
+    min-height: 100vh;
+    background: var(--color-green-4);
+}
+
+.Page-About-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Page-About-text {
+    margin: 15px auto;
+    color: rgba(255, 255, 2555, 0.85);
+    font-size: 1.25em;
+    text-align: center;
+    width: 80%;
+}
+
+.Page-About-level {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}

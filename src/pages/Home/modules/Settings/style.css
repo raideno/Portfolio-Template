@@ -1,0 +1,24 @@
+.Page-Settings {
+    position: relative;
+    height: 100vh;
+    background-color: var(--color-green-4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page-Settings-header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.Page-Settings-text {
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+.Page-About-Component-FlushButton {
+    position: absolute;
+    top: 0;
+    margin-left: 15px;
+    transition: 0.25s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-25px);
+    cursor: pointer;
+}
+
+.Page-About-Component-FlushButton:hover {
+    transform: translateY(0);
+}
+
+.Page-About-Component-FlushButton-bar {
+    width: 5px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.Page-About-Component-FlushButton-circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: solid 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

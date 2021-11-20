@@ -1,0 +1,15 @@
+.Page-Home-Module-Board-Component-SaveModal-container {
+    background-color: var(--color-night);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    border-radius: 6px;
+}
+
+.Page-Home-Module-Board-Component-SaveModal-title {
+    color: #c4af94;
+    font-size: 2em;
+    font-weight: bold;
+}

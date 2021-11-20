@@ -1,0 +1,48 @@
+@keyframes BackAnim {
+    from {
+        background-color: var(--color-green-4);
+        display: flex;
+        z-index: 99;
+    }
+
+    50% {
+        z-index: 2;
+    }
+
+    100% {
+        background-color: none;
+        display: none;
+        z-index: -1;
+    }
+}
+
+.Page-Home-Component-Welcome {
+    animation: BackAnim 1.25s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page-Home-Component-Welcome-text {
+    width: auto;
+    color: white;
+    font-size: 4em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.Page-Home-Component-Welcome-alert {
+    display: flex;
+}
+
+.Page-Home-Component-Welcome-alert-text {
+    color: white;
+    opacity: 0.75;
+    margin-left: 5px;
+}

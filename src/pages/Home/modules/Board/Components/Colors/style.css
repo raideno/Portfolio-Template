@@ -1,0 +1,20 @@
+.Page-Board-Component-Colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Page-Board-Component-Colors-color {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px;
+    border: solid rgba(255, 255, 255, 0.5);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.25s;
+}
+
+.Page-Board-Component-Colors-color:hover {
+    transform: scale(0.9);
+}

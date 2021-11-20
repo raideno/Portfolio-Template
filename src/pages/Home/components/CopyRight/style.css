@@ -1,0 +1,11 @@
+.Page-Home-Component-CopyRight {
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.Page-Home-Component-CopyRight:hover {
+    transform: scale(0.975);
+}

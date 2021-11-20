@@ -1,0 +1,57 @@
+.Page-Home {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Page-Home-buttons {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    /*To center the div*/
+    left: 0; 
+    right: 0; 
+}
+
+.Page-Home-cloud0 {
+    animation: animation 10s infinite;
+    animation-delay: 1s;
+}
+.Page-Home-cloud1 {
+    animation: animation 10s infinite;
+    animation-delay: 4s;
+}
+.Page-Home-cloud2 {
+    animation: animation 10s infinite;
+    animation-delay: 6s;
+}
+.Page-Home-cloud3 {
+    animation: animation 10s infinite;
+    animation-delay: 5s;
+}
+.Page-Home-cloud4 {
+    animation: animation 10s infinite;
+    animation-delay: 2s;
+}
+.Page-Home-cloud5 {
+    animation: animation 10s infinite;
+    animation-delay: 3s;
+}
+
+@keyframes animation {
+    0% {
+        transform: translateX(-10vw);
+    }
+
+    50% {
+        transform: translateX(110vw);
+    }
+
+    100% {
+        transform: translateX(-10vw);
+    }
+}
