@@ -7,3 +7,8 @@ Solarized dark             |  Solarized Ocean
 
 ![Site-Image-1](https://github.com/Raiden-56/Portfolio-Template/blob/main/Images/Site-Image-1.png)
 ![Site-Image-2](https://github.com/Raiden-56/Portfolio-Template/blob/main/Images/Site-Image-2.png)
+
+<p float="left">
+  <img src="https://github.com/Raiden-56/Portfolio-Template/blob/main/Images/Site-Image-1.png" width="100" />
+  <img src="https://github.com/Raiden-56/Portfolio-Template/blob/main/Images/Site-Image-2.png" width="100" /> 
+</p>
