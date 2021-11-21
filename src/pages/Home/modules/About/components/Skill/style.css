@@ -1,27 +1,26 @@
-.Page-Home-Module-Component-Notation {
+.Page-Home-Module-Component-Skill {
     position: relative;
     display: inline-block;
-    margin: 20px;
     cursor: pointer;
 }
 
-.Page-Home-Module-Component-Notation-title {
+.Page-Home-Module-Component-Skill-title {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: 800;
 }
 
-.Page-Home-Module-Component-Notation .Page-Home-Module-Component-Notation-div {
+.Page-Home-Module-Component-Skill .Page-Home-Module-Component-Skill-div {
     color: white;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 1.75em;
     text-align: center;
     text-decoration: none;
     background-color: #FFA12B;
     display: block;
     position: relative;
-    padding: 20px 40px;
+    padding: 20px 10px;
 
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     text-shadow: 0px 1px 0px #000;

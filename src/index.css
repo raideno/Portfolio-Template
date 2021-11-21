@@ -42,3 +42,9 @@ body {
     font-size: 1.2em;
     font-weight: 700;
 }
+
+@media (width < 450px) {
+    body {
+        font-size: 0.55em;
+    }
+}

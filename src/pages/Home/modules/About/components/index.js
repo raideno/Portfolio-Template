@@ -1,5 +1,5 @@
-const { Notation } = require('./Notation');
+const { Skill } = require('./Skill');
 
 module.exports = {
-    Notation,
+    Skill,
 }

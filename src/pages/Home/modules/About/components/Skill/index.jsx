@@ -1,8 +1,8 @@
 import './style.css';
 
-export function Notation({ level, title }) {
+export function Skill({ level, title }) {
 
-    const CPrefix = "Page-Home-Module-Component-Notation";
+    const CPrefix = "Page-Home-Module-Component-Skill";
 
     return (
         <div className={CPrefix}>

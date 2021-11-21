@@ -18,9 +18,13 @@
     width: 80%;
 }
 
-.Page-About-level {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.Page-About-skils {
+    display: grid;
+    justify-content: center;
+    align-self: center;
     align-items: center;
+    grid-template-columns: 40% 50%;
+    grid-template-rows: 150px;
+    column-gap: 20px;
+    row-gap: 20px;
 }
