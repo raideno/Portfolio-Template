@@ -8,6 +8,7 @@
     align-items: center;
     transform: translateY(-25px);
     cursor: pointer;
+    z-index: 99;
 }
 
 .Page-About-Component-FlushButton:hover {

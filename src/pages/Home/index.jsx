@@ -46,13 +46,7 @@ export class Home extends Component {
                     </div>
                     <FlushButton {...{ state: this.state.state, toggleState: this.toggleState }}/>
                     {this.state.state ? <Moon/> : <Sun/>}
-                    {new Array(6).fill(0).map((v, i) => {
-                        return (
-                            <div className={this.CPrefix + '-cloud' + i} key={this.CPrefix + '-cloud' + i}>
-                                <Cloud/>
-                            </div>
-                        )
-                    })}
+                    {new Array(6).fill(0).map((v, i) => <Cloud key={"cloud" + i} /> )}
                     <CopyRight/>
                 </div>
                 {this.state.pages.filter(({ name }) => this.state.page === name)[0] ? this.state.pages.filter(({ name }) => this.state.page === name)[0].Component : null}
