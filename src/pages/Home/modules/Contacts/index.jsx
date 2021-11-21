@@ -30,8 +30,8 @@ export function Contacts({ NavigateHome }) {
                     justifyContent: 'space-between',
                     alignItems: 'center',
                 }}>
-                    <Prop title="✉️ Email" value="nadirkichou@hotmail.fr" />
-                    <Prop title="Phone" value="0654126843" />
+                    <Prop title="Email" value="nadirkichou@hotmail.fr" icon="fas fa-envelope" />
+                    <Prop title="Phone" value="0654126843" icon="fas fa-phone"/>
                 </div>
                 <div className={CPrefix + '-code'}>8864217.8197815.124</div>
             </div>

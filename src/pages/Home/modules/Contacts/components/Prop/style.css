@@ -3,6 +3,11 @@
     align-items: center;
 }
 
+.Page-Contacts-Component-Prop-icon {
+    color: white;
+    margin-right: 4px;
+}
+
 .Page-Contacts-Component-Prop-title {
     font-size: 1.125em;
     font-weight: 800;
